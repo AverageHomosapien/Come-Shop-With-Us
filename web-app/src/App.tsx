@@ -1,11 +1,13 @@
 import logo from './logo.svg';
-import ShoppingListComponent from './Components/ShoppingList';
+import ShoppingList from './Components/ShoppingList';
+import HeaderBar from './Components/Common/HeaderBar';
 import './App.css';
 
 function App() : JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
+        <HeaderBar firstName='Naomi'/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is being loaded from <code>src/App.tsx</code>
@@ -18,12 +20,10 @@ function App() : JSX.Element {
         >
           Make a React App
         </a>
-        <ShoppingListComponent listName='my special list'/>
+        <ShoppingList listName='my special list'/>
       </header>
     </div>
   );
 }
 
 export default App;
-//
-// ReactDOM.render(<ShoppingListComponent/>);
