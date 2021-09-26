@@ -6,12 +6,12 @@ interface HeaderBarProps {
 
 const HeaderBar : FC<HeaderBarProps> = (props) : JSX.Element => {
     return(
-        <div id="topnav">
-            <a href="#home">Home</a>
-            <a href="#news">{props.firstName}&#39;s Page</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
+        <ul id='navigation-bar'>
+            <li><a href="default.html">Home</a></li>
+            <li><a href="news.html">{props.firstName}&#39;s Page</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">Settings</a></li>
+        </ul>
     );
 }
 

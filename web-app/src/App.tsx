@@ -6,8 +6,8 @@ import './App.css';
 function App() : JSX.Element {
   return (
     <div className="App">
+      <HeaderBar firstName='Naomi'/>
       <header className="App-header">
-        <HeaderBar firstName='Naomi'/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is being loaded from <code>src/App.tsx</code>
