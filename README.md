@@ -1,5 +1,5 @@
 # Come Shop With Us
- A shopping website
+Tech-Stack: Node.js, TypeScript and React. An Amazon clone (in progress).
 
 ## Using the App
 ```yarn dev``` for development build
